@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+     <!--
+    Name: Omar Ahmetović
+    Course: CS 410
+    Assignement: Project 3
+    Due Date: 9:12:2021.
+    Purpose: The purpose of this webpage is to represent a short CV
+    about me using HTML, CSS and JavaScript.
+-->
+     <link rel="stylesheet" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+     crossorigin="anonymous"></script>
+     <meta name="viewport" content="width-device-width, initial-scale=1.0">
+     
+     <title>Omar Ahmetović - Resume 3</title>
+
+ </head>
+
+ <body>
+    <nav>
+        <label class="top">Omar Ahmetović Resume </label>
+        <ul>
+            <li><a href="#AboutMeLINK">About me</a></li>
+            <li><a href="#EducationLink">Education</a></li>
+            <li><a href="#SkillsLink">Skills</a></li>
+            <li><a href="#ContactMeLink">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <div class="WelcomeDiv">
+
+<p id="WelcomeMessage"> </p>
+
+<p class="WelcomeDivText"> Welcome to my Resume</p>
+    </div>
+    <br>
+    <hr id="AboutMeLINK">
+<div class="AboutMeDiv">
+
+    <h2 id="AboutMe"> About me</h2>
+<img class="MyPhoto" src="My Photo.jpg">
+
+<p class="AboutMeText">
+    My name is Omar Ahmetović. I am 21 years old. I live in Sarajevo, Bosnia and Herzegovina. <br>
+    I am a 3rd year student at International University of Sarajevo. I am hard working, determined,<br>
+    and I enjoy programming. Apart from programming, I also enjoy playing sports such as football <br>
+    basketball, table tenis and I also enjoy plane spotting. I am also good at foreign languages such as: <br>
+    English, Turkish, German and Arabic. I am also ready to learn new technologies and improve my <br>
+    programming skills.
+</p>
+
+</div>
+<hr id="EducationLink">
+<div class="EducationDiv"> 
+<label id="Education">Education</label>
+
+<ol class="EducationList">
+<li><b>Primary School:</b> <a href="http://www.osmh.edu.ba/" target="_blank"> El-Manar (now it is called Mehmed Handžić)</a></li>
+<li><b>High School:</b> <a href="https://cetvrta-gimnazija.edu.ba/" target="_blank"> Četvrta Gimnazija Ilidža</a></li>
+<li><b>Undergraduate:</b> <a href="https://www.ius.edu.ba/" target="_blank"> International University of Sarajevo</a></li>
+</ol>
+</div>
+<hr id="SkillsLink">
+
+<div class="SkillsDiv"> 
+<label id="Skills">Skills</label>
+  <p class="SkillsText">
+    As a Software Engineering student, I have participated in several projects and I have so far <br>
+    used C, C++, Java, Python, Ruby, HTML, CSS and JavaScript.<br> <br>
+    <b>- C++</b> is a language which I first studied and did programming on. I had one project in C++ which <br>
+    was to create a spam filter to check if certain emails are spams or not. <br>
+    <b>- C</b> is a language that I did not study that much since C has a lot of similarities wich C++ <br>
+    <b>- Java</b> is the second programming language that I studied during my education. I had one project from <br>
+    Java which was to create an app to read two genoms which will modify one of them and compare them. <br>
+    <b>- Python and Ruby</b> I did not study, I had to use the languages once as part of a project in which <br>
+    five problems had to be solved in five different programming languages. <br>
+    <b>- HTML, CSS and JavaScript</b> I am studying now as part of a Web Application developement course. <br>
+    Here are the links to the previous versions of this Resume: <br>
+    - Link to the first project: <a class="Resume1Link" href="https://omarahmetovic21.github.io/Project-1/" target="_blank">Resume 1</a> <br>
+    - Link to the second project: <a class="Resume2Link" href="https://omarahmetovic21.github.io/Project-2/" target="_blank">Resume 2</a> <br>
+  </p>
+</div>
+  <hr id="ContactMeLink">
+
+<div class="ContactMeDiv">
+  <label id="ContactMe">Contact me</label>
+  <p class="ContactMeText">
+<a class="FacebookLink" href="https://www.facebook.com/omar.ahmetovic.9/" target="_blank">Facebook:</a> Omar Ahmetović <br>
+<a class="InstagramLink" href="https://www.instagram.com/omar_ahmetovic/" target="_blank">Instagram:</a> omar_ahmetovic <br>
+<b>Email:</b> omarahmetovic19@gmail.com <br>
+<b>Phone Number:</b> +387 61 651 756 </p>
+</div>
+<hr>
+
+
+  <label class="ContentPanelLabel">Content Panel Example</label>
+  <br> <br> <br>
+  <p class="ContentPanelInstruction">Press the "Label 1" button</p>
+<ul id="accordion">
+  <li>
+  <br> <br>
+  <button id="accordion-control">Label 1</button>
+  <div id="accordion-panel">
+    <hr>
+    <br> <br>
+    CONTENT <br> <br> <br>
+    This is a content panel called "Accordion." <br>
+    When the user clicks on a label, an anonymous <br>
+    function gets the label the user clicked on. <br>
+    It selects the panel after it and either shows or hides it.
+    <br> <br> <br>
+    <hr>
+  </div>
+  </li>
+  </ul>
+<hr>
+
+<div class="SwitchCase">
+
+<label id="ColoredText"> Change my color </label>
+<br> <br> <br>
+<p class="ColorMessage"> Type either of these colors: Red, Blue, Yellow or Green</p>
+<br> <br>
+
+<input type="text" id="InputColor">
+
+<button onclick="pressed()" id="ChangeColorButton">Click</button>
+
+</div>
+<hr>
+
+<br> <br> 
+<label class="JQuerryAnimationLabel"> JQuery Animation Example</label>
+<br> <br> <br>
+<p class="Instructions">Press either slide down or slide up button</p>
+<br> <br> <br>
+<button id="SlideUpButton">Slide Up</button>
+<button id="SlideDownButton">Slide Down</button>
+<br> <br>
+<hr>
+<div id="SlideBox">Slide me up or down</div>
+<hr>
+
+<div class="ArrayDiv">
+  <label class="ArrayTitle"> Array Example </label>
+  <br> <br> <br>
+  <p class="ArrayInfo">This is a array containing some car brands.</p>
+  <br> 
+  <p id="ArrayPrint"></p>
+  </div>
+  <hr>
+
+  <div class="Footer"> 
+    <a class="TopLink" href="#top">Back to top</a>
+    </div>
+ </body>
+
+ <script src="script.js"></script>
+
+</html>

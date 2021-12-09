@@ -1,0 +1,999 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    height: 150px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+
+.top{
+    margin-left: 20px;
+    color: darkblue;
+    font-size: 40px;
+    line-height: 150px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    right: 20px;
+    padding: 0 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 150px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    color: darkblue;
+    font-size: 20px;
+    padding: 13px 19px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    background-color: red;
+}
+
+.WelcomeDiv{
+    height: 140px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.MyPhoto{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.AboutMeText{
+    margin-right: 100px;
+    line-height: 3em;
+    margin-top: 50px;
+    float: right;
+}
+
+#AboutMe{
+    margin-left: 100px;
+    font-size: 45px;
+}
+
+.AboutMeDiv{
+    height: 550px;
+    background-color: rgb(0, 119, 255);
+}
+
+.EducationDiv{
+    height: 200px;
+    background-color:orange;
+}
+
+#Education{
+    line-height: 200px;
+    font-size: 45px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.EducationList{
+    margin-right: 405px;
+    margin-top: 25px;
+    line-height: 3em;
+    float: right;
+}
+
+.EducationList a{
+    color: yellow;
+}
+
+.EducationList a:hover{
+    color: blue;
+}
+
+.SkillsDiv{
+    height: 700px;
+    background-color: lime;
+}
+
+#Skills{
+    line-height: 700px;
+    font-size: 45px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.SkillsText{
+    margin-top: 10px;
+    float: right;
+    margin-right: 75px;
+    line-height: 3em;
+}
+
+.Resume1Link{
+    color: blue;
+}
+
+.Resume1Link:hover{
+    color: red;
+}
+
+.Resume2Link{
+    color: blue;
+}
+
+.Resume2Link:hover{
+    color: red;
+}
+
+.ContactMeDiv{
+    height: 300px;
+    background-color: cyan;
+}
+
+#ContactMe{
+    line-height: 300px;
+    font-size: 45px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.ContactMeText{
+    margin-top: 50px;
+    float: right;
+    line-height: 3em;
+    margin-right: 600px;
+}
+
+.FacebookLink{
+    color: blue;
+}
+
+.FacebookLink:hover{
+    color:  red;
+}
+
+.InstagramLink{
+    color: blue;
+}
+
+.InstagramLink:hover{
+    color: red;
+}
+
+.ContentPanelInstruction{
+    margin-left: 100px;
+}
+
+.ContentPanelLabel{
+    font-size: 50px;
+    margin-left: 100px
+}
+
+#accordion-control{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 47%;
+
+}
+
+#accordion-panel {
+    display: none;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.SwitchCase{
+    height: 200px;
+}
+
+#ColoredText{
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.ColorMessage{
+    margin-left: 100px;
+}
+
+#InputColor{
+    height: 30px;
+    margin-left: 100px;
+}
+
+#ChangeColorButton{
+    height: 30px;
+    width: 60px;
+}
+
+.JQuerryAnimationLabel{
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+#SlideBox{
+    text-align: center;
+    height: 200px;
+    background-color: orangered;
+    font-size: 50px;
+    line-height: 200px;
+}
+
+#SlideUpButton{
+    margin-left: 100px;
+}
+
+#SlideDownButton{
+    margin-left: 50px;
+}
+
+.Instructions{
+    margin-left: 100px;
+}
+
+.ArrayDiv{
+    height: 190px;
+}
+
+.ArrayTitle{
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.ArrayInfo{
+    margin-left: 100px;
+}
+
+#ArrayPrint{
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.Footer{
+    height: 150px;
+    text-align: center;
+}
+
+.TopLink{
+    line-height: 150px;
+    text-transform: uppercase;
+    color: darkblue;
+    font-size: 20px;
+    padding: 13px 19px;
+    border-radius: 3px;
+}
+
+.TopLink:hover{
+    background-color: red;
+}
+
+
+
+@media only screen and (max-width: 1326px){
+nav ul{
+    display: none;
+}
+
+nav{
+    text-align: center;
+}
+
+#AboutMe{
+    margin-left: 50px;
+}
+
+.AboutMeText{
+    margin-right: 15px;
+}
+
+.MyPhoto{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+#Education{
+    margin-left: 50px;
+}
+
+.EducationList{
+    margin-right: 100px;
+    margin-top: 25px;
+    line-height: 3em;
+    float: right;
+}
+
+#Skills{
+    margin-left: 50px;
+}
+
+.SkillsText{
+    margin-right: 15px;
+}
+
+#ContactMe{
+    margin-left: 50px;
+}
+
+.ContactMeText{
+    margin-top: 50px;
+    float: right;
+    line-height: 3em;
+    margin-right: 300px;
+}
+
+.ContentPanelInstruction{
+    margin-left: 50px;
+}
+
+.ContentPanelLabel{
+    font-size: 50px;
+    margin-left: 50px
+}
+
+#ColoredText{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.ColorMessage{
+    margin-left: 50px;
+}
+
+#InputColor{
+    height: 30px;
+    margin-left: 50px;
+}
+
+.JQuerryAnimationLabel{
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.Instructions{
+    margin-left: 50px;
+}
+
+#SlideUpButton{
+    margin-left: 50px;
+}
+
+.ArrayTitle{
+    margin-left: 50px;
+}
+
+.ArrayInfo{
+    margin-left: 50px;
+}
+
+#ArrayPrint{
+    margin-left: 50px;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px){
+    nav ul{
+        display: none;
+    }
+    
+    nav{
+        text-align: center;
+    }
+    
+    #AboutMe{
+        margin-left: 50px;
+    }
+    
+    .AboutMeText{
+        margin-right: 15px;
+        font-size: 14.5px;
+        line-height: 4em;
+    }
+    
+    .MyPhoto{
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 200px;
+        border-radius: 50px;
+    }
+    
+    #Education{
+        margin-left: 50px;
+    }
+    
+    .EducationList{
+        margin-right: 100px;
+        margin-top: 25px;
+        line-height: 4em;
+        font-size: 14.5px;
+        float: right;
+    }
+    
+    #Skills{
+        margin-left: 50px;
+    }
+    
+    .SkillsText{
+        margin-right: 15px;
+        font-size: 14.5px;
+    }
+    
+    #ContactMe{
+        margin-left: 50px;
+    }
+    
+    .ContactMeText{
+        margin-top: 50px;
+        float: right;
+        line-height: 3em;
+        margin-right: 200px;
+        font-size: 14.5px;
+    }
+    
+    .ContentPanelInstruction{
+        font-size: 14.5px;
+        margin-left: 50px;
+    }
+    
+    .ContentPanelLabel{
+        font-size: 50px;
+        margin-left: 50px
+    }
+    
+    #ColoredText{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    
+    .ColorMessage{
+        margin-left: 50px;
+        font-size: 14.5px;
+    }
+    
+    #InputColor{
+        height: 30px;
+        margin-left: 50px;
+    }
+    
+    .JQuerryAnimationLabel{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    
+    .Instructions{
+        font-size: 14.5px;
+        margin-left: 50px;
+        font-size: 14.5px;
+    }
+    
+    #SlideUpButton{
+        margin-left: 50px;
+    }
+    
+    .ArrayTitle{
+        margin-left: 50px;
+    }
+    
+    .ArrayInfo{
+        margin-left: 50px;
+        font-size: 14.5px;
+    }
+    
+    #ArrayPrint{
+        margin-left: 50px;
+        font-size: 14.5px;
+    }
+    
+    }
+
+
+    
+@media only screen and (max-width: 1030px){
+    nav ul{
+        display: none;
+    }
+    
+    nav{
+        text-align: center;
+    }
+    
+    #AboutMe{
+        margin-left: 50px;
+    }
+    
+    .AboutMeText{
+        margin-right: 15px;
+        font-size: 12px;
+        line-height: 4em;
+    }
+    
+    .MyPhoto{
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 200px;
+        border-radius: 50px;
+    }
+    
+    #Education{
+        margin-left: 50px;
+    }
+    
+    .EducationList{
+        margin-right: 100px;
+        margin-top: 25px;
+        line-height: 4em;
+        font-size: 12px;
+        float: right;
+    }
+    
+    #Skills{
+        margin-left: 50px;
+    }
+    
+    .SkillsText{
+        margin-right: 15px;
+        font-size: 12px;
+        line-height: 4em;
+    }
+    
+    #ContactMe{
+        margin-left: 50px;
+    }
+    
+    .ContactMeText{
+        margin-top: 50px;
+        float: right;
+        line-height: 4em;
+        margin-right: 200px;
+        font-size: 12px;
+    }
+    
+    .ContentPanelInstruction{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    
+    .ContentPanelLabel{
+        font-size: 50px;
+        margin-left: 50px
+    }
+    
+    #ColoredText{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    
+    .ColorMessage{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    
+    #InputColor{
+        height: 30px;
+        margin-left: 50px;
+    }
+    
+    .JQuerryAnimationLabel{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    
+    .Instructions{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    
+    #SlideUpButton{
+        margin-left: 50px;
+    }
+    
+    .ArrayTitle{
+        margin-left: 50px;
+    }
+    
+    .ArrayInfo{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    
+    #ArrayPrint{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    
+    }
+
+
+    
+    @media only screen and (max-width: 890px){
+        nav ul{
+            display: none;
+        }
+        
+        nav{
+            text-align: center;
+        }
+        
+        #AboutMe{
+            margin-left: 25px;
+            font-size: 35px;
+        }
+        
+        .AboutMeText{
+            margin-right: 15px;
+            font-size: 11px;
+            line-height: 5em;
+        }
+        
+        .MyPhoto{
+            margin-left: 25px;
+            margin-top: 50px;
+            width: 150px;
+            border-radius: 25px;
+        }
+        
+        #Education{
+            margin-left: 25px;
+            font-size: 35px;
+        }
+        
+        .EducationList{
+            margin-right: 100px;
+            margin-top: 25px;
+            line-height: 5em;
+            font-size: 11px;
+            float: right;
+        }
+        
+        #Skills{
+            margin-left: 25px;
+            font-size: 35px;
+        }
+        
+        .SkillsText{
+            margin-right: 15px;
+            font-size: 11px;
+            line-height: 4em;
+        }
+        
+        #ContactMe{
+            margin-left: 25px;
+            font-size: 35px;
+        }
+        
+        .ContactMeText{
+            margin-top: 50px;
+            float: right;
+            line-height: 4em;
+            margin-right: 200px;
+            font-size: 11px;
+        }
+        
+        .ContentPanelInstruction{
+            font-size: 11px;
+            margin-left: 35px;
+        }
+        
+        .ContentPanelLabel{
+            font-size: 35px;
+            margin-left: 25px
+        }
+        
+        #ColoredText{
+            font-size: 35px;
+            margin-left: 25px;
+        }
+        
+        .ColorMessage{
+            font-size: 11px;
+            margin-left: 25px;
+        }
+        
+        #InputColor{
+            height: 30px;
+            margin-left: 25px;
+        }
+        
+        .JQuerryAnimationLabel{
+            margin-left: 25px;
+            font-size: 35px;
+        }
+        
+        .Instructions{
+            margin-left: 25px;
+            font-size: 11px;
+        }
+        
+        #SlideUpButton{
+            margin-left: 25px;
+        }
+        
+        .ArrayTitle{
+            margin-left: 25px;
+            font-size: 35px;
+        }
+        
+        .ArrayInfo{
+            margin-left: 25px;
+            font-size: 11px;
+        }
+        
+        #ArrayPrint{
+            margin-left: 25px;
+            font-size: 11px;
+        }
+        
+        }
+
+
+        @media only screen and (max-width: 765px){
+            nav ul{
+                display: none;
+            }
+            
+            nav{
+                text-align: center;
+            }
+
+            .top{
+                font-size: 35px
+            }
+            
+            #AboutMe{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .AboutMeText{
+                margin-right: 10px;
+                font-size: 10px;
+                line-height: 5em;
+            }
+            
+            .MyPhoto{
+                margin-left: 25px;
+                margin-top: 50px;
+                width: 150px;
+                border-radius: 25px;
+            }
+            
+            #Education{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .EducationList{
+                margin-right: 100px;
+                margin-top: 25px;
+                line-height: 5em;
+                font-size: 10px;
+                float: right;
+            }
+            
+            #Skills{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .SkillsText{
+                margin-right: 15px;
+                font-size: 10px;
+                line-height: 4em;
+            }
+            
+            #ContactMe{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .ContactMeText{
+                margin-top: 50px;
+                float: right;
+                line-height: 4em;
+                margin-right: 200px;
+                font-size: 10px;
+            }
+            
+            .ContentPanelInstruction{
+                font-size: 10px;
+                margin-left: 15px;
+            }
+            
+            .ContentPanelLabel{
+                font-size: 25px;
+                margin-left: 15px
+            }
+            
+            #ColoredText{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .ColorMessage{
+                font-size: 10px;
+                margin-left: 15px;
+            }
+            
+            #InputColor{
+                height: 30px;
+                margin-left: 15px;
+            }
+            
+            .JQuerryAnimationLabel{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .Instructions{
+                margin-left: 15px;
+                font-size: 10px;
+            }
+            
+            #SlideUpButton{
+                margin-left: 15px;
+            }
+            
+            .ArrayTitle{
+                margin-left: 15px;
+                font-size: 25px;
+            }
+            
+            .ArrayInfo{
+                margin-left: 15px;
+                font-size: 10px;
+            }
+            
+            #ArrayPrint{
+                margin-left: 15px;
+                font-size: 10px;
+            }
+            
+            }
+
+
+            @media only screen and (max-width: 715px){
+                nav ul{
+                    display: none;
+                }
+                
+                nav{
+                    text-align: center;
+                }
+    
+                .top{
+                    font-size: 25px
+                }
+                
+                #AboutMe{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .AboutMeText{
+                    margin-right: 5px;
+                    font-size: 9px;
+                    line-height: 5em;
+                }
+                
+                .MyPhoto{
+                    margin-left: 5px;
+                    margin-top: 50px;
+                    width: 70px;
+                    border-radius: 15px;
+                }
+                
+                #Education{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .EducationList{
+                    margin-right: 100px;
+                    margin-top: 25px;
+                    line-height: 5em;
+                    font-size: 9px;
+                    float: right;
+                }
+                
+                #Skills{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .SkillsText{
+                    margin-right: 5px;
+                    font-size: 9px;
+                    line-height: 4em;
+                }
+                
+                #ContactMe{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .ContactMeText{
+                    margin-top: 50px;
+                    float: right;
+                    line-height: 4em;
+                    margin-right: 100px;
+                    font-size: 10px;
+                }
+                
+                .ContentPanelInstruction{
+                    font-size: 9px;
+                    margin-left: 5px;
+                }
+                
+                .ContentPanelLabel{
+                    font-size: 15px;
+                    margin-left: 5px
+                }
+                
+                #ColoredText{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .ColorMessage{
+                    font-size: 9px;
+                    margin-left: 5px;
+                }
+                
+                #InputColor{
+                    height: 30px;
+                    margin-left: 5px;
+                }
+                
+                .JQuerryAnimationLabel{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .Instructions{
+                    margin-left: 5px;
+                    font-size: 9px;
+                }
+                
+                #SlideUpButton{
+                    margin-left: 5px;
+                }
+                
+                .ArrayTitle{
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+                
+                .ArrayInfo{
+                    margin-left: 5px;
+                    font-size: 9px;
+                }
+                
+                #ArrayPrint{
+                    margin-left: 5px;
+                    font-size: 9px;
+                }
+                
+                }
+    
